@@ -45,7 +45,7 @@ Promise.all([
   ["VariableID:3919:36423", "var(--wds-color-background-default-default)", "Bg/Default/Default"],
   ["VariableID:3919:36424", "var(--wds-color-background-default-secondary)", "Bg/Default/Secondary"],
   ["VariableID:3919:36425", "var(--wds-color-background-default-tertiary)", "Bg/Default/Tertiary"],
-  ["VariableID:3919:36426", "var(--wds-color-background-default-default-hover)", "Bg/Default/Default Hover"],
+  ["VariableID:3919:36426", "var(--wds-color-background-default-hover)", "Bg/Default/Default Hover"],
   ["VariableID:3919:36428", "var(--wds-color-background-brand-default)", "Bg/Brand/Default"],
   ["VariableID:3919:36430", "var(--wds-color-background-brand-secondary)", "Bg/Brand/Secondary"],
   ["VariableID:3919:36431", "var(--wds-color-background-brand-hover)", "Bg/Brand/Hover"],
