@@ -72,9 +72,9 @@ export function Grid({
     display: "grid",
     gridTemplateColumns: columns,
     gridTemplateRows: rows,
-    gap: gap ? `var(--sds-size-space-${gap})` : undefined,
-    columnGap: columnGap ? `var(--sds-size-space-${columnGap})` : undefined,
-    rowGap: rowGap ? `var(--sds-size-space-${rowGap})` : undefined,
+    gap: gap ? `var(--wds-size-space-${gap})` : undefined,
+    columnGap: columnGap ? `var(--wds-size-space-${columnGap})` : undefined,
+    rowGap: rowGap ? `var(--wds-size-space-${rowGap})` : undefined,
     justifyItems,
     alignItems,
   };

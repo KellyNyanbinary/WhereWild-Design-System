@@ -5,7 +5,7 @@ import { TextContentTitle } from "primitives";
 
 const meta: Meta<typeof Section> = {
   component: Section,
-  title: "SDS Layout/Section",
+  title: "WDS Layout/Section",
   parameters: { layout: "centered" },
 };
 export default meta;

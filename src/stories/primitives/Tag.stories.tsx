@@ -13,7 +13,7 @@ import { ComponentProps } from "react";
 
 const meta: Meta<typeof Tag> = {
   component: Tag,
-  title: "SDS Primitives/Tags",
+  title: "WDS Primitives/Tags",
   parameters: { layout: "centered" },
 };
 export default meta;

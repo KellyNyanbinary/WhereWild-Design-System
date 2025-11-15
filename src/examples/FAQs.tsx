@@ -12,26 +12,26 @@ export function FAQs() {
         <TextContentHeading
           align="center"
           heading="Frequently Asked Questions"
-          subheading="Find answers to common questions about Simple Design System"
+          subheading="Find answers to common questions about WhereWild Design System"
         />
         <Flex container type="third" alignPrimary="center">
           <FlexItem size="major">
             <Accordion>
-              <AccordionItem title="What is Simple Design System (SDS)?">
-                SDS is a React-based design system that provides accessible,
+              <AccordionItem title="What is WhereWild Design System (WDS)?">
+                WDS is a React-based design system that provides accessible,
                 production-ready UI components, design tokens, and Figma
                 integration for demonstrating how to build consistent user
                 interfaces efficiently.
               </AccordionItem>
-              <AccordionItem title="How do I install SDS in my project?">
+              <AccordionItem title="How do I install WDS in my project?">
                 It is not distributed yet, but you can use it directly, by
                 cloning the repository at{" "}
                 <a href="https://github.com/figma/sds">github.com/figma/sds</a>.
                 Refer to the documentation for setup instructions and usage
                 examples.
               </AccordionItem>
-              <AccordionItem title="Does SDS support dark mode?">
-                Yes, SDS includes full support for light and dark modes using
+              <AccordionItem title="Does WDS support dark mode?">
+                Yes, WDS includes full support for light and dark modes using
                 CSS custom properties. It automatically adapts to the user's
                 system preferences.
               </AccordionItem>

@@ -3,7 +3,7 @@ import { InputField } from "primitives";
 
 const meta: Meta<typeof InputField> = {
   component: InputField,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

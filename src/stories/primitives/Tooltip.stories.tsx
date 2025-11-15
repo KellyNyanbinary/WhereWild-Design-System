@@ -16,7 +16,7 @@ import {
 
 const meta: Meta<typeof Tooltip> = {
   component: Tooltip,
-  title: "SDS Primitives/Tooltip",
+  title: "WDS Primitives/Tooltip",
   parameters: { layout: "centered" },
 };
 

@@ -10,7 +10,7 @@ import {
 
 const meta: Meta<typeof Pagination> = {
   component: Pagination,
-  title: "SDS Primitives/Pagination",
+  title: "WDS Primitives/Pagination",
   parameters: { layout: "centered" },
 };
 export default meta;

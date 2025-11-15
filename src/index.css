@@ -4,7 +4,7 @@
 @import url("./icons.css");
 
 :root {
-  --global-focus-ring-size: var(--sds-size-stroke-focus-ring);
+  --global-focus-ring-size: var(--wds-size-stroke-focus-ring);
   --global-focus-ring-color: rgb(0, 106, 255);
   --global-line-height-paragraph: 1.4;
   --global-stack-top: 999;
@@ -18,10 +18,10 @@
 }
 
 .display-none-to-flex {
-  display: var(--sds-responsive-display-none-to-flex) !important;
+  display: var(--wds-responsive-display-none-to-flex) !important;
 }
 .display-flex-to-none {
-  display: var(--sds-responsive-display-flex-to-none) !important;
+  display: var(--wds-responsive-display-flex-to-none) !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,8 +35,8 @@ html {
 }
 
 body {
-  background: var(--sds-color-background-default-default);
-  color: var(--sds-color-text-default-default);
+  background: var(--wds-color-background-default-default);
+  color: var(--wds-color-text-default-default);
   margin: 0;
 }
 
@@ -55,12 +55,12 @@ button,
 textarea,
 input,
 select {
-  font: var(--sds-font-body-base);
+  font: var(--wds-font-body-base);
 }
 
 pre,
 code {
-  font: var(--sds-font-body-code);
+  font: var(--wds-font-body-code);
 }
 
 h1,
@@ -69,7 +69,7 @@ h3,
 h4,
 h5,
 h6 {
-  font: var(--sds-font-heading);
+  font: var(--wds-font-heading);
 }
 
 h1,

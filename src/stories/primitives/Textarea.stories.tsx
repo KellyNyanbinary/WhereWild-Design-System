@@ -3,7 +3,7 @@ import { TextareaField } from "primitives";
 
 const meta: Meta<typeof TextareaField> = {
   component: TextareaField,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

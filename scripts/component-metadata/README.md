@@ -1,3 +1,3 @@
-# SDS Component Metadata (JS Console)
+# WDS Component Metadata (JS Console)
 
 [Instructions](/README.md#scriptscomponent-metadata)

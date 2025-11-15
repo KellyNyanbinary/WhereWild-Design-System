@@ -8,7 +8,7 @@ function Example() {
 
 const meta: Meta<typeof Example> = {
   component: Example,
-  title: "SDS Hooks/useMediaQuery",
+  title: "WDS Hooks/useMediaQuery",
   parameters: { layout: "centered" },
 };
 export default meta;

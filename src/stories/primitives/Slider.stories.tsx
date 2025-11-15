@@ -3,7 +3,7 @@ import { Slider, SliderField } from "primitives";
 
 const meta: Meta<typeof Slider> = {
   component: Slider,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

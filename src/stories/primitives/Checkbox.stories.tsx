@@ -4,7 +4,7 @@ import { Checkbox, CheckboxField, CheckboxGroup } from "primitives";
 
 const meta: Meta<typeof Checkbox> = {
   component: Checkbox,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

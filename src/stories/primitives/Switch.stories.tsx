@@ -3,7 +3,7 @@ import { SwitchField, SwitchGroup } from "primitives";
 
 const meta: Meta<typeof SwitchField> = {
   component: SwitchField,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

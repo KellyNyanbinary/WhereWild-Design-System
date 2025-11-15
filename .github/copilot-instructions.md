@@ -1,10 +1,10 @@
-# Simple Design System (SDS) Copilot Instructions
+# WhereWild Design System (WDS) Copilot Instructions
 
-Welcome to the Simple Design System repository! This is a comprehensive React-based design system with Figma integration using Code Connect. This guide will help you understand how to work with the codebase effectively.
+Welcome to the WhereWild Design System repository! This is a comprehensive React-based design system with Figma integration using Code Connect. This guide will help you understand how to work with the codebase effectively.
 
 ## Repository Overview
 
-SDS is a production-ready design system featuring:
+WDS is a production-ready design system featuring:
 
 - 🎨 **Figma Integration**: Full Code Connect integration with variables, styles, and components
 - ⚛️ **React Components**: Built on React Aria/Stately for accessibility
@@ -26,7 +26,7 @@ SDS is a production-ready design system featuring:
 
 ### Key Resources
 
-- [Live Storybook](https://figma.github.io/sds/storybook) - Component documentation
+- [Live Storybook](https://figma.github.io/wds/storybook) - Component documentation
 - [Figma Community File](https://www.figma.com/community/file/1380235722331273046/simple-design-system) - Design source
 
 ## Quick Start Checklist
@@ -41,13 +41,13 @@ Before implementing any Figma design, follow this checklist:
 - If patterns dont already exist, you should ask for permission and clarify what about the design isn't already accounted for in this codebase that is present in the design.
 
 2. ✅ **Read component APIs** in the actual TypeScript files before using
-3. ✅ **Use SDS components only** - never import from `@react-aria`, `@react-stately`, etc.
+3. ✅ **Use WDS components only** - never import from `@react-aria`, `@react-stately`, etc.
 4. ✅ **Use CSS variables** - never hardcode colors, spacing, or typography
 5. ✅ **Use layout components** - never write custom CSS for positioning
 
 ## Importing Aliases
 
-When importing SDS components, use aliases to ensure correct paths. These are described in the `vite.config.ts` file under `resolve.alias`:
+When importing WDS components, use aliases to ensure correct paths. These are described in the `vite.config.ts` file under `resolve.alias`:
 
 ```tsx
 import { Footer, Header } from "compositions";
@@ -73,9 +73,9 @@ import {
 } from "primitives";
 ```
 
-## Figma to SDS Translation Guidelines
+## Figma to WDS Translation Guidelines
 
-When implementing designs from Figma, follow these guidelines to ensure proper translation to the SDS component library.
+When implementing designs from Figma, follow these guidelines to ensure proper translation to the WDS component library.
 
 ## Annotations
 
@@ -96,21 +96,21 @@ Always read these annotations carefully, as they provide important context for i
 
 All design tokens from Figma are defined as CSS variables in [src/theme.css](../src/theme.css). **Always use these variables instead of hardcoded values.**
 
-- Colors: Use `var(--sds-color-*)` variables (e.g., `var(--sds-color-text-default-default)`)
-- Spacing: Use `var(--sds-size-space-*)` variables (e.g., `var(--sds-size-space-400)`)
-  - **important**: These variables can map to a prop value numerically. For example, `<Section padding="400">` corresponds to `padding: var(--sds-size-space-400)` in a Figma response.
-- Typography: Use `var(--sds-typography-*)` or `var(--sds-font-*)` variables
-- Border radius: Use `var(--sds-size-radius-*)` variables
-- Shadows: Use `var(--sds-effects-shadows-*)` variables
+- Colors: Use `var(--wds-color-*)` variables (e.g., `var(--wds-color-text-default-default)`)
+- Spacing: Use `var(--wds-size-space-*)` variables (e.g., `var(--wds-size-space-400)`)
+  - **important**: These variables can map to a prop value numerically. For example, `<Section padding="400">` corresponds to `padding: var(--wds-size-space-400)` in a Figma response.
+- Typography: Use `var(--wds-typography-*)` or `var(--wds-font-*)` variables
+- Border radius: Use `var(--wds-size-radius-*)` variables
+- Shadows: Use `var(--wds-effects-shadows-*)` variables
 
 ### Example Usage
 
 ```css
 .custom-element {
-  background: var(--sds-color-background-default-default);
-  color: var(--sds-color-text-default-default);
-  padding: var(--sds-size-space-400);
-  border-radius: var(--sds-size-radius-200);
+  background: var(--wds-color-background-default-default);
+  color: var(--wds-color-text-default-default);
+  padding: var(--wds-size-space-400);
+  border-radius: var(--wds-size-radius-200);
 }
 ```
 
@@ -158,11 +158,11 @@ scripts/
 
 ## Component Library Structure
 
-All UI components are in [src/ui](../src/ui). **Never create new components - always use existing SDS components.**
+All UI components are in [src/ui](../src/ui). **Never create new components - always use existing WDS components.**
 
 All data management (contexts, providers, services, types, and data hooks) are in [src/data](../src/data). Use the provided context providers and custom hooks for state management.
 
-## SDS Component Hierarchy
+## WDS Component Hierarchy
 
 When you see `hidden={true}` in Figma data, it indicates that the node should be ignored. This can happen with Figma components frequently, as nodes that can be toggled with a prop need to exist, even when the prop is false.
 
@@ -171,7 +171,7 @@ When you see `hidden={true}` in Figma data, it indicates that the node should be
 ## Figma Translation Process
 
 1. **Extract design using Figma tools**: Always use the Figma MCP tools to get the design data
-2. **Identify SDS components**: Map Figma components to existing SDS primitives, compositions, and layouts
+2. **Identify WDS components**: Map Figma components to existing WDS primitives, compositions, and layouts
    - Use the `codeDependencies` field to find the correct component path
    - If no direct mapping exists, look for similar components or compositions
 3. **Check component APIs**: Read the actual component files to understand props and usage patterns
@@ -184,7 +184,7 @@ When you see `hidden={true}` in Figma data, it indicates that the node should be
 
 ```tsx
 // Figma: Button with variant="Primary" and icon
-// SDS Implementation:
+// WDS Implementation:
 <Button variant="primary" size="medium">
   Button Text
 </Button>
@@ -194,7 +194,7 @@ When you see `hidden={true}` in Figma data, it indicates that the node should be
 
 ```tsx
 // Figma: Navigation Pills with selection states
-// SDS Implementation:
+// WDS Implementation:
 <Navigation>
   <NavigationPill isSelected>Active Item</NavigationPill>
   <NavigationPill>Inactive Item</NavigationPill>
@@ -205,7 +205,7 @@ When you see `hidden={true}` in Figma data, it indicates that the node should be
 
 ```tsx
 // Figma: Text with specific styles
-// SDS Implementation:
+// WDS Implementation:
 <TextHeading>Heading Text</TextHeading>
 <Text>Body text</Text>
 <TextSmall>Small text</TextSmall>
@@ -215,7 +215,7 @@ When you see `hidden={true}` in Figma data, it indicates that the node should be
 
 ```tsx
 // Figma: Cards in a grid
-// SDS Implementation:
+// WDS Implementation:
 <Section>
   <Flex direction="row" gap="400" type="third">
     <div>Card 1</div>
@@ -281,7 +281,7 @@ function ResponsiveExample() {
 <div style={{ color: "#111111", padding: "16px" }}> // WRONG
 ```
 
-**Fix**: Use CSS variables via class names: `<div className="example">` and `.example { color: var(--sds-color-text-default-default); padding: var(--sds-size-space-400); }`
+**Fix**: Use CSS variables via class names: `<div className="example">` and `.example { color: var(--wds-color-text-default-default); padding: var(--wds-size-space-400); }`
 
 ### ❌ Pitfall 2: Creating custom layout CSS
 
@@ -387,22 +387,22 @@ Data management layer with contexts, providers, services, and hooks:
 
 ## Figma Integration
 
-SDS uses Figma Code Connect for seamless design-to-code integration. Here's how it works:
+WDS uses Figma Code Connect for seamless design-to-code integration. Here's how it works:
 
-- **Design Tokens**: Figma styles are synced as CSS custom properties (e.g., `--sds-color-primary`)
-- **Components**: Figma components are mapped to SDS components with equivalent props and variants
+- **Design Tokens**: Figma styles are synced as CSS custom properties (e.g., `--wds-color-primary`)
+- **Components**: Figma components are mapped to WDS components with equivalent props and variants
 - **Assets**: Figma images and icons are exported as React components or assets
 
 ### Figma File Setup
 
 To enable Code Connect:
 
-1. Use the **"SDS - Design Tokens"** and **"SDS - Components"** styles in Figma
-2. Organize components in Figma using the same structure as SDS (primitives, compositions, etc.)
+1. Use the **"WDS - Design Tokens"** and **"WDS - Components"** styles in Figma
+2. Organize components in Figma using the same structure as WDS (primitives, compositions, etc.)
 3. Publish changes in Figma, then run `npm run script:tokens` and `npm run script:icons` to sync
 
 ### Known Limitations
 
-- Not all Figma features have 1:1 parity with SDS components (e.g., complex interactions)
+- Not all Figma features have 1:1 parity with WDS components (e.g., complex interactions)
 - Some manual adjustment may be needed after syncing, especially for layout and spacing
-- Ensure Figma components are named and organized according to SDS conventions for best results
+- Ensure Figma components are named and organized according to WDS conventions for best results

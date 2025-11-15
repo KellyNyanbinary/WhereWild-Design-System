@@ -21,7 +21,7 @@ import { ComponentProps } from "react";
 
 const meta: Meta<typeof Card> = {
   component: Card,
-  title: "SDS Compositions/Cards",
+  title: "WDS Compositions/Cards",
   parameters: { layout: "centered" },
 };
 export default meta;
@@ -233,7 +233,7 @@ export const StoryStatsCard: StoryObj<typeof StatsCard> = {
       <StatsCard
         icon={<IconClock size="40" />}
         stat="400"
-        description="SDS Hours"
+        description="WDS Hours"
       />
       <StatsCard
         icon={<IconCode size="40" />}

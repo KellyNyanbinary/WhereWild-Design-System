@@ -1,17 +1,17 @@
 .notification {
-  --border-radius: var(--sds-size-radius-200);
+  --border-radius: var(--wds-size-radius-200);
   align-items: center;
   background-color: var(--notification-background-color);
   border-radius: var(--border-radius);
-  box-shadow: inset 0 0 0 var(--sds-size-stroke-border)
+  box-shadow: inset 0 0 0 var(--wds-size-stroke-border)
     var(--notification-border-color);
   color: var(--notification-color);
   display: grid;
   grid-template-areas: "icon content" "icon content" "icon content";
   grid-template-columns: min-content 1fr;
   justify-content: center;
-  padding: var(--sds-size-space-400) var(--sds-size-space-300)
-    var(--sds-size-space-400) var(--sds-size-space-400);
+  padding: var(--wds-size-space-400) var(--wds-size-space-300)
+    var(--wds-size-space-400) var(--wds-size-space-400);
   position: relative;
   width: 100%;
 
@@ -19,17 +19,17 @@
     align-self: flex-start;
     grid-area: icon;
     + .notification-content {
-      margin-left: var(--sds-size-space-300);
+      margin-left: var(--wds-size-space-300);
     }
   }
 
   > .notification-content {
     grid-area: content;
     > * + * {
-      margin-top: var(--sds-size-space-100);
+      margin-top: var(--wds-size-space-100);
     }
     > .button {
-      margin-top: var(--sds-size-space-300);
+      margin-top: var(--wds-size-space-300);
     }
   }
 
@@ -39,20 +39,20 @@
 
   > .icon-button {
     position: absolute;
-    right: var(--sds-size-space-200);
-    top: var(--sds-size-space-200);
+    right: var(--wds-size-space-200);
+    top: var(--wds-size-space-200);
   }
 }
 
 .notification-variant-message {
-  --notification-color: var(--sds-color-text-default-default);
-  --notification-icon: var(--sds-color-icon-default-default);
-  --notification-border-color: var(--sds-color-border-default-default);
-  --notification-background-color: var(--sds-color-background-default-default);
+  --notification-color: var(--wds-color-text-default-default);
+  --notification-icon: var(--wds-color-icon-default-default);
+  --notification-border-color: var(--wds-color-border-default-default);
+  --notification-background-color: var(--wds-color-background-default-default);
 }
 .notification-variant-alert {
-  --notification-color: var(--sds-color-text-danger-on-danger-tertiary);
-  --notification-icon: var(--sds-color-icon-danger-on-danger-tertiary);
-  --notification-border-color: var(--sds-color-border-danger-default);
-  --notification-background-color: var(--sds-color-background-danger-tertiary);
+  --notification-color: var(--wds-color-text-danger-on-danger-tertiary);
+  --notification-icon: var(--wds-color-icon-danger-on-danger-tertiary);
+  --notification-border-color: var(--wds-color-border-danger-default);
+  --notification-background-color: var(--wds-color-background-danger-tertiary);
 }

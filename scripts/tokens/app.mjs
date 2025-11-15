@@ -11,10 +11,10 @@ const WRITE_DIR = "../../src";
 
 const CONVERT_TO_REM = true;
 // Extension namespace for the w3c token file
-const NAMESPACES = ["com.figma.sds", "org.sds"];
+const NAMESPACES = ["com.figma.wds", "org.wds"];
 const DEFAULT_NAMESPACE = NAMESPACES[0];
 // Prefix for CSS custom properties
-const TOKEN_PREFIX = "sds-";
+const TOKEN_PREFIX = "wds-";
 
 // The data object. Each item in here represents a collection.
 // `[collection].definitions` will contain all the token data
@@ -28,9 +28,9 @@ const COLLECTION_DATA = {
     settings: {
       prefix: "color",
       // Light mode names from Figma in lower underscore case. First is default light mode.
-      colorSchemes: ["sds_light"],
+      colorSchemes: ["wds_light"],
       // Dark mode names from Figma in lower underscore case. First is default dark mode.
-      colorSchemesDark: ["sds_dark"],
+      colorSchemesDark: ["wds_dark"],
       // Strings to strip from mode names above when transforming to theme class names. (Only applicable when more than one per mode)
       colorSchemeLightRemove: "_light",
       colorSchemeDarkRemove: "_dark",
@@ -218,10 +218,17 @@ ${Object.keys(processed)
 })).then(() => console.log("DONE!")).catch(console.error)`;
 
   // Write the code syntax snippet
-  fs.writeFileSync(
-    "./tokenVariableSyntaxAndDescriptionSnippet.js",
-    variableSyntaxAndDescriptionString,
-  );
+  try {
+    fs.writeFileSync(
+      "./tokenVariableSyntaxAndDescriptionSnippet.js",
+      variableSyntaxAndDescriptionString,
+    );
+  } catch (error) {
+    console.warn(
+      "Unable to write tokenVariableSyntaxAndDescriptionSnippet.js:",
+      error instanceof Error ? error.message : error,
+    );
+  }
 
   // Return our data
   return { processed, themeCSS: fileStringCSSLines };

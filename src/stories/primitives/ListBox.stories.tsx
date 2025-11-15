@@ -4,7 +4,7 @@ import { Description, Label, ListBox, ListBoxItem } from "primitives";
 
 const meta: Meta<typeof ListBox> = {
   component: ListBox,
-  title: "SDS Primitives/ListBox",
+  title: "WDS Primitives/ListBox",
   parameters: { layout: "centered" },
 };
 export default meta;

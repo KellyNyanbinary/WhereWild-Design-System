@@ -22,7 +22,7 @@ import { useState } from "react";
 
 const meta: Meta<typeof Dialog> = {
   component: Dialog,
-  title: "SDS Primitives/Dialog",
+  title: "WDS Primitives/Dialog",
   parameters: { layout: "centered" },
 };
 export default meta;

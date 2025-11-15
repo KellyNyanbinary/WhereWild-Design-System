@@ -1,15 +1,15 @@
 .list-box {
   --list-box-item-template-areas: "label" "description";
-  background: var(--sds-color-background-default-default);
-  border-radius: var(--sds-size-radius-200);
+  background: var(--wds-color-background-default-default);
+  border-radius: var(--wds-size-radius-200);
   box-shadow:
-    0 0 0 var(--sds-size-stroke-border) var(--sds-color-border-default-default),
-    var(--sds-effects-shadows-drop-shadow-400);
+    0 0 0 var(--wds-size-stroke-border) var(--wds-color-border-default-default),
+    var(--wds-effects-shadows-drop-shadow-400);
   display: flex;
   flex-direction: column;
   outline: none;
   overflow-y: auto;
-  padding: var(--sds-size-space-200);
+  padding: var(--wds-size-space-200);
 
   &[data-orientation="horizontal"],
   &[data-layout="grid"] {
@@ -56,20 +56,20 @@
 }
 
 .list-box-item {
-  --list-box-label-color: var(--sds-color-text-default-default);
-  --list-box-description-color: var(--sds-color-text-default-secondary);
-  --list-box-icon-color: var(--sds-color-icon-default-default);
+  --list-box-label-color: var(--wds-color-text-default-default);
+  --list-box-description-color: var(--wds-color-text-default-secondary);
+  --list-box-icon-color: var(--wds-color-icon-default-default);
 
   align-items: center;
   background-color: transparent;
-  border-radius: var(--sds-size-radius-200);
+  border-radius: var(--wds-size-radius-200);
   color: var(--list-box-label-color);
-  column-gap: var(--sds-size-space-200);
+  column-gap: var(--wds-size-space-200);
   cursor: pointer;
   display: grid;
   grid-template-areas: var(--list-box-item-template-areas);
   grid-template-columns: auto 1fr;
-  padding: var(--sds-size-space-200) var(--sds-size-space-200);
+  padding: var(--wds-size-space-200) var(--wds-size-space-200);
 
   > .icon {
     --icon-color: var(--list-box-icon-color);
@@ -94,15 +94,15 @@
   }
 
   &[data-disabled] {
-    color: var(--sds-color-text-disabled-default);
+    color: var(--wds-color-text-disabled-default);
   }
 
   &[data-focused] {
-    --list-box-label-color: var(--sds-color-text-brand-on-brand);
-    --list-box-description-color: var(--sds-color-text-brand-on-brand);
-    --list-box-icon-color: var(--sds-color-icon-brand-on-brand);
+    --list-box-label-color: var(--wds-color-text-brand-on-brand);
+    --list-box-description-color: var(--wds-color-text-brand-on-brand);
+    --list-box-icon-color: var(--wds-color-icon-brand-on-brand);
 
-    background-color: var(--sds-color-background-brand-default);
+    background-color: var(--wds-color-background-brand-default);
     outline: none;
   }
 }

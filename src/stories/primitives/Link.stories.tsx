@@ -3,7 +3,7 @@ import { Link } from "primitives";
 
 const meta: Meta<typeof Link> = {
   component: Link,
-  title: "SDS Primitives/Link",
+  title: "WDS Primitives/Link",
   parameters: { layout: "centered" },
 };
 export default meta;

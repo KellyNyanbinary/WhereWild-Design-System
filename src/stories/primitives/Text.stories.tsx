@@ -21,7 +21,7 @@ import {
 
 const meta: Meta<typeof Text> = {
   component: Text,
-  title: "SDS Primitives/Text",
+  title: "WDS Primitives/Text",
 };
 export default meta;
 type Story = StoryObj<typeof Text>;

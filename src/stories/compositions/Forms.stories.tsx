@@ -4,7 +4,7 @@ import { Button, ButtonGroup, CheckboxField, InputField } from "primitives";
 
 const meta: Meta<typeof FormBox> = {
   component: FormBox,
-  title: "SDS Compositions/Forms",
+  title: "WDS Compositions/Forms",
   parameters: { layout: "centered" },
 };
 export default meta;

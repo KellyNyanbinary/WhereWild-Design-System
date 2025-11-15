@@ -3,7 +3,7 @@ import { Tab, TabList, TabPanel, Tabs } from "primitives";
 
 const meta: Meta<typeof Tabs> = {
   component: Tabs,
-  title: "SDS Primitives/Tabs",
+  title: "WDS Primitives/Tabs",
   parameters: { layout: "centered" },
 };
 export default meta;

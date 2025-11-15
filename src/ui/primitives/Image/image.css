@@ -6,7 +6,7 @@
 }
 
 .image-placeholder {
-  background: var(--sds-color-background-default-secondary);
+  background: var(--wds-color-background-default-secondary);
   display: block;
   width: 100%;
 }
@@ -16,7 +16,7 @@ img.image-loading {
 }
 
 .image-variant-rounded {
-  border-radius: var(--sds-size-radius-100);
+  border-radius: var(--wds-size-radius-100);
 }
 
 .image-aspect-ratio-1-1 {

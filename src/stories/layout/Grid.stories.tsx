@@ -3,7 +3,7 @@ import { Grid, GridItem } from "layout";
 
 const meta: Meta<typeof Grid> = {
   component: Grid,
-  title: "SDS Layout/Grid",
+  title: "WDS Layout/Grid",
   parameters: { layout: "centered" },
 };
 export default meta;
@@ -14,8 +14,8 @@ const renderChild = (text: string) => (
       display: "grid",
       placeItems: "center",
       padding: "0.5rem 1rem",
-      background: "var(--sds-color-background-brand-default)",
-      color: "var(--sds-color-text-brand-on-brand)",
+      background: "var(--wds-color-background-brand-default)",
+      color: "var(--wds-color-text-brand-on-brand)",
       height: "100%",
       minHeight: "40px",
     }}

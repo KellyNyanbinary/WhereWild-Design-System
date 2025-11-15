@@ -2,14 +2,14 @@
   border: none;
   display: flex;
   flex-direction: column;
-  gap: var(--sds-size-space-600);
+  gap: var(--wds-size-space-600);
   width: 100%;
 
   &.fieldset-disabled {
-    --field-label-color: var(--sds-color-text-disabled-default);
-    --field-description-color: var(--sds-color-text-disabled-default);
+    --field-label-color: var(--wds-color-text-disabled-default);
+    --field-description-color: var(--wds-color-text-disabled-default);
     > * {
-      color: var(--sds-color-text-disabled-default);
+      color: var(--wds-color-text-disabled-default);
     }
   }
 }
@@ -17,13 +17,13 @@
 .field-group {
   display: flex;
   flex-direction: column;
-  gap: var(--sds-size-space-600);
+  gap: var(--wds-size-space-600);
 }
 
 .field {
-  --field-label-color: var(--sds-color-text-default-default);
-  --field-description-color: var(--sds-color-text-default-secondary);
-  --field-row-gap: var(--sds-size-space-200);
+  --field-label-color: var(--wds-color-text-default-default);
+  --field-description-color: var(--wds-color-text-default-secondary);
+  --field-row-gap: var(--wds-size-space-200);
 
   display: grid;
   grid-template-areas:
@@ -35,8 +35,8 @@
 
   [data-disabled] > &,
   &[data-disabled] {
-    --field-label-color: var(--sds-color-text-disabled-default);
-    --field-description-color: var(--sds-color-text-disabled-default);
+    --field-label-color: var(--wds-color-text-disabled-default);
+    --field-description-color: var(--wds-color-text-disabled-default);
   }
 
   .select,
@@ -66,24 +66,24 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: var(--sds-size-space-300);
+  gap: var(--wds-size-space-300);
 }
 
 .legend {
-  font: var(--sds-font-subheading);
+  font: var(--wds-font-subheading);
 }
 
 .label {
   color: var(--field-label-color);
-  font: var(--sds-font-body-base);
+  font: var(--wds-font-body-base);
 }
 
 .description {
   color: var(--field-description-color);
-  font: var(--sds-font-body-base);
+  font: var(--wds-font-body-base);
 }
 
 .error-message {
-  color: var(--sds-color-text-danger-default);
-  font: var(--sds-font-body-base);
+  color: var(--wds-color-text-danger-default);
+  font: var(--wds-font-body-base);
 }

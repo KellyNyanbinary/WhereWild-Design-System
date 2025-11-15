@@ -4,7 +4,7 @@ import { Button, ButtonDanger, ButtonGroup } from "primitives";
 
 const meta: Meta<typeof Button> = {
   component: Button,
-  title: "SDS Primitives/Buttons",
+  title: "WDS Primitives/Buttons",
   parameters: { layout: "centered" },
 };
 export default meta;

@@ -22,7 +22,7 @@ import { useState } from "react";
 
 const meta: Meta<typeof Fieldset> = {
   component: Fieldset,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

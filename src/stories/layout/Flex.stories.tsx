@@ -3,7 +3,7 @@ import { Flex, FlexItem } from "layout";
 
 const meta: Meta<typeof Flex> = {
   component: Flex,
-  title: "SDS Layout/Flex",
+  title: "WDS Layout/Flex",
   parameters: { layout: "centered" },
 };
 export default meta;
@@ -14,8 +14,8 @@ const renderChild = (text: string) => (
       display: "grid",
       placeItems: "center",
       padding: "0.5rem 1rem",
-      background: "var(--sds-color-background-brand-default)",
-      color: "var(--sds-color-text-brand-on-brand)",
+      background: "var(--wds-color-background-brand-default)",
+      color: "var(--wds-color-text-brand-on-brand)",
     }}
   >
     {text}

@@ -2,15 +2,15 @@
 
 Using Figma's [Code Connect](https://github.com/figma/code-connect).
 
-Simple Design System (SDS) is a base design system that shows how Figma’s Variables, Styles, Components, and Code Connect can be used alongside a React codebase to form a complete picture of a responsive web design system.
+Simple Design System (WDS) is a base design system that shows how Figma’s Variables, Styles, Components, and Code Connect can be used alongside a React codebase to form a complete picture of a responsive web design system.
 
-SDS is not just another design system in Figma. There are still many gaps between design and development, and SDS provides some best practices for how to bridge them. SDS tries to remain honest about its implications in code, while also offering customizability in design beyond the simple theming layer that is typical of many code-first component libraries.
+WDS is not just another design system in Figma. There are still many gaps between design and development, and WDS provides some best practices for how to bridge them. WDS tries to remain honest about its implications in code, while also offering customizability in design beyond the simple theming layer that is typical of many code-first component libraries.
 
-Whether you’re looking to use SDS to start a new project, or are looking for examples of some common design systems best practices, you'll find tools inside this codebase and design file to steer you in the right direction.
+Whether you’re looking to use WDS to start a new project, or are looking for examples of some common design systems best practices, you'll find tools inside this codebase and design file to steer you in the right direction.
 
 ## Resources
 
-- [Storybook](https://figma.github.io/sds/storybook)
+- [Storybook](https://figma.github.io/wds/storybook)
 - [Figma Community File](https://www.figma.com/community/file/1380235722331273046/simple-design-system)
 
 ## Setup
@@ -34,7 +34,7 @@ For running local plugins on Figma, the local Figma app is required.
 
 ### Code Connect
 
-SDS is fully backed by Figma's Code Connect. This includes examples for how to connect [primitives](./src/figma/primitives/), as well as [compositions](./src/figma/compositions/) of those primitives for your design system.
+WDS is fully backed by Figma's Code Connect. This includes examples for how to connect [primitives](./src/figma/primitives/), as well as [compositions](./src/figma/compositions/) of those primitives for your design system.
 
 This repo utilizes `documentUrlSubstitutions` in [figma.config.json](./figma.config.json). This allows us to keep our docs Figma file-agnostic and colocates all the Figma file-specific information for easy url swapping. The document URL substitutions are also named in a way that helps you find the associated component without clicking a link. A key `<FIGMA_INPUTS_CHECKBOX_GROUP>` is broken down as `<FIGMA_[PAGE_NAME]_[COMPONENT_NAME]>`.
 
@@ -80,7 +80,7 @@ All components and styles are in [src/ui](./src/ui). Within that directory, code
 
 ### [src/ui/compositions](./src/ui/compositions/)
 
-Example arrangements of primitive components to demonstrate how you might use SDS to build a responsive website.
+Example arrangements of primitive components to demonstrate how you might use WDS to build a responsive website.
 
 ### [src/ui/hooks](./src/ui/hooks/)
 
@@ -96,11 +96,11 @@ Placeholder images.
 
 ### [src/ui/layout](./src/ui/layout/)
 
-Layout components. Crucial to SDS layouts, but do not have analogous component in Figma.
+Layout components. Crucial to WDS layouts, but do not have analogous component in Figma.
 
 ### [src/ui/primitives](./src/ui/primitives/)
 
-The main component library. SDS primitives can't be reduced further into sub components.
+The main component library. WDS primitives can't be reduced further into sub components.
 
 ### [src/ui/providers](./src/ui/providers/)
 
@@ -157,10 +157,10 @@ If your Figma plan doesn’t expose the Variables REST API (Starter/Professional
 
 1. **Export Variables and Styles from Figma**
    - Install the dev plugins located in `scripts/tokens/figma-plugin-token-json` and `scripts/tokens/figma-plugin-styles-json` via **Plugins → Development → Import plugin from manifest…**.
-   - Run each plugin inside your duplicated SDS Figma file. It will pop a textarea containing JSON.
+   - Run each plugin inside your duplicated WDS Figma file. It will pop a textarea containing JSON.
    - Copy the Variable output into `scripts/tokens/tokens.json` and the Style output into `scripts/tokens/styles.json`.
 2. **Regenerate the local theme**
    - Run `npm run script:tokens`. This reads the JSON files, rebuilds `src/theme.css`, and updates `scripts/tokens/tokenVariableSyntaxAndDescriptionSnippet.js`.
    - Restart Storybook (or your dev server) so it picks up the regenerated CSS.
 
-Whenever you tweak colors/typography in Figma, just repeat the export + `npm run script:tokens` step. If you later gain REST access, switch back to `npm run script:tokens:rest`—the CLI now understands both `com.figma.sds` and `org.sds` namespaces, so no extra changes are required.
+Whenever you tweak colors/typography in Figma, just repeat the export + `npm run script:tokens` step. If you later gain REST access, switch back to `npm run script:tokens:rest`—the CLI now understands both `com.figma.wds` and `org.wds` namespaces, so no extra changes are required.

@@ -4,8 +4,8 @@ import { PricingProvider } from "./PricingProvider";
 import { ProductsProvider } from "./ProductsProvider";
 
 /**
- * Combined provider that wraps all SDS providers in the correct order
- * Use this at the root of your application to enable all SDS features
+ * Combined provider that wraps all WDS providers in the correct order
+ * Use this at the root of your application to enable all WDS features
  *
  * @example
  * ```tsx

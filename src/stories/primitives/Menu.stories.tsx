@@ -11,7 +11,7 @@ import {
 
 const meta: Meta<typeof MenuButton> = {
   component: MenuButton,
-  title: "SDS Primitives/Menu",
+  title: "WDS Primitives/Menu",
   parameters: { layout: "centered" },
 };
 

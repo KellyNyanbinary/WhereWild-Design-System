@@ -4,7 +4,7 @@ import { Image, Picture, PictureSource } from "primitives";
 
 const meta: Meta<typeof Image> = {
   component: Image,
-  title: "SDS Primitives/Image",
+  title: "WDS Primitives/Image",
   parameters: { layout: "centered" },
 };
 export default meta;

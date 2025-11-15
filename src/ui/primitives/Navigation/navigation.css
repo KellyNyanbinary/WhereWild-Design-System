@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   align-items: center;
-  gap: var(--sds-size-space-200);
+  gap: var(--wds-size-space-200);
 }
 
 .navigation-direction-row {
@@ -20,26 +20,26 @@
 }
 
 .navigation-pill {
-  --border-radius: var(--sds-size-radius-200);
+  --border-radius: var(--wds-size-radius-200);
   background: transparent;
   border-radius: var(--border-radius);
-  color: var(--sds-color-text-default-default);
+  color: var(--wds-color-text-default-default);
   cursor: pointer;
-  padding: var(--sds-size-space-200);
+  padding: var(--wds-size-space-200);
   position: relative;
 
   &[data-hovered] {
-    background: var(--sds-color-background-default-default-hover);
+    background: var(--wds-color-background-default-default-hover);
   }
 
   &[data-selected] {
-    color: var(--sds-color-text-brand-on-brand-secondary);
-    background: var(--sds-color-background-brand-tertiary);
+    color: var(--wds-color-text-brand-on-brand-secondary);
+    background: var(--wds-color-background-brand-tertiary);
   }
 
   &[data-focus-visible] {
     outline: none;
-    --offset: calc(var(--sds-size-stroke-border) * 2);
+    --offset: calc(var(--wds-size-stroke-border) * 2);
     &::before {
       content: "";
       border-radius: calc(var(--border-radius) + var(--offset));
@@ -59,33 +59,33 @@
   align-items: center;
   background: transparent;
   border-radius: var(--border-radius);
-  color: var(--sds-color-text-default-secondary);
+  color: var(--wds-color-text-default-secondary);
   cursor: pointer;
   display: flex;
-  gap: var(--sds-size-space-200);
+  gap: var(--wds-size-space-200);
   line-height: 1;
-  padding: var(--sds-size-space-200);
+  padding: var(--wds-size-space-200);
   position: relative;
 
   > .icon {
-    --icon-color: var(--sds-color-icon-default-secondary);
+    --icon-color: var(--wds-color-icon-default-secondary);
   }
 
   &[data-selected] {
-    color: var(--sds-color-text-brand-default);
+    color: var(--wds-color-text-brand-default);
 
     > .icon {
-      --icon-color: var(--sds-color-icon-brand-default);
+      --icon-color: var(--wds-color-icon-brand-default);
     }
   }
 
   &[data-hovered] {
-    background: var(--sds-color-background-default-default-hover);
+    background: var(--wds-color-background-default-default-hover);
   }
 
   &[data-focus-visible] {
     outline: none;
-    --offset: calc(var(--sds-size-stroke-border) * 2);
+    --offset: calc(var(--wds-size-stroke-border) * 2);
     &::before {
       content: "";
       border-radius: calc(var(--border-radius) + var(--offset));
@@ -108,10 +108,10 @@
   }
 
   &.navigation-button-size-small {
-    font: var(--sds-font-body-small-strong);
+    font: var(--wds-font-body-small-strong);
   }
 
   &.navigation-button-size-medium {
-    font: var(--sds-font-body-base);
+    font: var(--wds-font-body-base);
   }
 }

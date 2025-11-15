@@ -8,5 +8,5 @@
 .pagination-list {
   align-items: center;
   display: flex;
-  gap: var(--sds-size-space-200);
+  gap: var(--wds-size-space-200);
 }

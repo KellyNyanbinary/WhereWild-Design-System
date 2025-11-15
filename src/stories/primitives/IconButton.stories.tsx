@@ -4,7 +4,7 @@ import { DestructiveIconButton, IconButton } from "primitives";
 
 const meta: Meta<typeof IconButton> = {
   component: IconButton,
-  title: "SDS Primitives/Buttons",
+  title: "WDS Primitives/Buttons",
   parameters: { layout: "centered" },
 };
 export default meta;

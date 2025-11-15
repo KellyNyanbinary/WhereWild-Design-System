@@ -1,11 +1,11 @@
 .logo {
-  --border-radius: var(--sds-size-radius-200);
+  --border-radius: var(--wds-size-radius-200);
   border-radius: var(--border-radius);
   position: relative;
 
   &[data-focus-visible] {
     outline: none;
-    --offset: calc(var(--sds-size-stroke-border) * 2);
+    --offset: calc(var(--wds-size-stroke-border) * 2);
     &::before {
       content: "";
       border-radius: calc(var(--border-radius) + var(--offset));
@@ -19,8 +19,8 @@
     }
   }
   > svg {
-    --logo-color: var(--sds-color-icon-default-default);
+    --logo-color: var(--wds-color-icon-default-default);
     height: auto;
-    width: var(--sds-size-icon-small);
+    width: var(--wds-size-icon-small);
   }
 }

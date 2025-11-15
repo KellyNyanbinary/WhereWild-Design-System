@@ -1,3 +1,3 @@
-# SDS Token Generator (REST or Plugin)
+# WDS Token Generator (REST or Plugin)
 
 [Instructions](/README.md#scriptstokens)

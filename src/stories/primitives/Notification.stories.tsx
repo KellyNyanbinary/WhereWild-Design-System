@@ -11,7 +11,7 @@ import { ComponentProps } from "react";
 
 const meta: Meta<typeof Notification> = {
   component: Notification,
-  title: "SDS Primitives/Notification",
+  title: "WDS Primitives/Notification",
   parameters: { layout: "centered" },
 };
 export default meta;

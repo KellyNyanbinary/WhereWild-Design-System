@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const meta: Meta<typeof Search> = {
   component: Search,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

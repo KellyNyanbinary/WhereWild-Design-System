@@ -1,3 +1,3 @@
-# SDS Icon Generator (REST or Plugin)
+# WDS Icon Generator (REST or Plugin)
 
 [Instructions](/README.md#scriptsicons)

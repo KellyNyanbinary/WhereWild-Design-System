@@ -1,3 +1,3 @@
-# SDS Dev Resources (REST)
+# WDS Dev Resources (REST)
 
 [Instructions](/README.md#scriptsdev-resources)

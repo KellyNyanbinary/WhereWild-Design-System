@@ -7,7 +7,7 @@ import { ComponentProps } from "react";
 
 const meta: Meta<typeof Avatar> = {
   component: Avatar,
-  title: "SDS Primitives/Avatars",
+  title: "WDS Primitives/Avatars",
   parameters: { layout: "centered" },
 };
 export default meta;

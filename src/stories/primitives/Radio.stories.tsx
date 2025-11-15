@@ -3,7 +3,7 @@ import { Radio, RadioField, RadioGroup } from "primitives";
 
 const meta: Meta<typeof Radio> = {
   component: Radio,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

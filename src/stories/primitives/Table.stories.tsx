@@ -18,7 +18,7 @@ import { SortDescriptor } from "react-stately";
 
 const meta: Meta<typeof Table> = {
   component: Table,
-  title: "SDS Primitives/Table",
+  title: "WDS Primitives/Table",
   parameters: { layout: "centered" },
 };
 export default meta;

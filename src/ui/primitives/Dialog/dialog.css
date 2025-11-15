@@ -11,8 +11,8 @@
 }
 
 .dialog-backdrop {
-  backdrop-filter: var(--sds-effects-backdrop-filter-blur-overlay);
-  background: var(--sds-color-background-utilities-scrim);
+  backdrop-filter: var(--wds-effects-backdrop-filter-blur-overlay);
+  background: var(--wds-color-background-utilities-scrim);
   bottom: 0;
   left: 0;
   position: fixed;
@@ -22,9 +22,9 @@
 }
 
 .dialog {
-  --dialog-padding-y: var(--sds-size-space-800);
-  background: var(--sds-color-background-default-default);
-  box-shadow: var(--sds-effects-shadows-drop-shadow-400);
+  --dialog-padding-y: var(--wds-size-space-800);
+  background: var(--wds-color-background-default-default);
+  box-shadow: var(--wds-effects-shadows-drop-shadow-400);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -38,22 +38,22 @@
 
   .dialog-close {
     position: absolute;
-    top: var(--sds-size-space-200);
-    right: var(--sds-size-space-200);
+    top: var(--wds-size-space-200);
+    right: var(--wds-size-space-200);
   }
 }
 
 .dialog-type-card {
-  border-radius: var(--sds-size-radius-200);
-  border: var(--sds-size-stroke-border) solid
-    var(--sds-color-border-default-default);
+  border-radius: var(--wds-size-radius-200);
+  border: var(--wds-size-stroke-border) solid
+    var(--wds-color-border-default-default);
   max-width: var(--global-dialog-max-width);
-  width: calc(100% - var(--sds-size-space-400) * 2);
+  width: calc(100% - var(--wds-size-space-400) * 2);
 }
 .dialog-type-sheet {
   align-self: flex-end;
-  border-top: var(--sds-size-stroke-border) solid
-    var(--sds-color-border-default-default);
+  border-top: var(--wds-size-stroke-border) solid
+    var(--wds-color-border-default-default);
   max-width: 100%;
   width: 100%;
   padding-left: calc((100% - min(var(--global-container-max-width), 100%)) / 2);
@@ -66,24 +66,24 @@
 .dialog-description,
 .dialog .button-group,
 .dialog-body {
-  padding-left: var(--sds-size-space-800);
-  padding-right: var(--sds-size-space-800);
+  padding-left: var(--wds-size-space-800);
+  padding-right: var(--wds-size-space-800);
 }
 
 .dialog-body-bleed {
-  margin-left: calc(-1 * var(--sds-size-space-800));
-  margin-right: calc(-1 * var(--sds-size-space-800));
-  --table-gutter-inset: var(--sds-size-space-800);
+  margin-left: calc(-1 * var(--wds-size-space-800));
+  margin-right: calc(-1 * var(--wds-size-space-800));
+  --table-gutter-inset: var(--wds-size-space-800);
 }
 
 .dialog .button-group {
-  margin-top: var(--sds-size-space-600);
+  margin-top: var(--wds-size-space-600);
 }
 
 .dialog-body {
-  margin-top: var(--sds-size-space-600);
+  margin-top: var(--wds-size-space-600);
 }
 
 .dialog-description {
-  margin-top: var(--sds-size-space-200);
+  margin-top: var(--wds-size-space-200);
 }

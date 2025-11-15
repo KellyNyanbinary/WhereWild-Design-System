@@ -5,7 +5,7 @@
   width: var(--avatar-diameter);
   &:focus-visible {
     outline: none;
-    --offset: calc(var(--sds-size-stroke-border) * 2);
+    --offset: calc(var(--wds-size-stroke-border) * 2);
     &::before {
       content: "";
       border-radius: calc(var(--avatar-border-radius) + var(--offset));
@@ -36,22 +36,22 @@
   }
 
   > svg {
-    background: var(--sds-color-background-brand-default);
+    background: var(--wds-color-background-brand-default);
     > text {
-      fill: var(--sds-color-text-brand-on-brand);
-      font-size: var(--sds-typography-scale-07);
+      fill: var(--wds-color-text-brand-on-brand);
+      font-size: var(--wds-typography-scale-07);
     }
   }
 }
 
 .avatar-block {
   align-items: start;
-  color: var(--sds-color-text-default-secondary);
+  color: var(--wds-color-text-default-secondary);
   display: grid;
   grid-template-areas: "avatar title";
   grid-template-columns: auto 1fr;
-  column-gap: var(--sds-size-space-200);
-  row-gap: var(--sds-size-space-050);
+  column-gap: var(--wds-size-space-200);
+  row-gap: var(--wds-size-space-050);
 
   &:has(> .text-body-base) {
     grid-template-areas: "avatar title" "avatar description";
@@ -71,66 +71,66 @@
 }
 
 .avatar-shape-circle {
-  --avatar-border-radius: var(--sds-size-radius-full);
+  --avatar-border-radius: var(--wds-size-radius-full);
 }
 .avatar-shape-square {
-  --avatar-border-radius: var(--sds-size-radius-200);
+  --avatar-border-radius: var(--wds-size-radius-200);
 }
 
 .avatar-size-small {
-  --avatar-diameter: var(--sds-size-icon-small);
+  --avatar-diameter: var(--wds-size-icon-small);
 }
 .avatar-size-medium {
-  --avatar-diameter: var(--sds-size-icon-medium);
+  --avatar-diameter: var(--wds-size-icon-medium);
 }
 .avatar-size-large {
-  --avatar-diameter: var(--sds-size-icon-large);
+  --avatar-diameter: var(--wds-size-icon-large);
 }
 
 .avatar-group {
   align-items: center;
   display: flex;
-  gap: var(--sds-size-space-300);
+  gap: var(--wds-size-space-300);
 
   > .avatar + .avatar {
-    margin-left: calc(var(--sds-size-space-300) * -1 + var(--avatar-group-gap));
+    margin-left: calc(var(--wds-size-space-300) * -1 + var(--avatar-group-gap));
   }
   > .avatar-group-overflow {
     align-items: center;
-    background: var(--sds-color-background-default-secondary);
-    border-radius: var(--sds-size-radius-200);
-    color: var(--sds-color-text-default-secondary);
+    background: var(--wds-color-background-default-secondary);
+    border-radius: var(--wds-size-radius-200);
+    color: var(--wds-color-text-default-secondary);
     display: flex;
     justify-content: center;
-    font: var(--sds-font-body-small);
-    font-weight: var(--sds-typography-body-weight-strong);
-    height: var(--sds-typography-scale-05);
-    width: var(--sds-typography-scale-05);
+    font: var(--wds-font-body-small);
+    font-weight: var(--wds-typography-body-weight-strong);
+    height: var(--wds-typography-scale-05);
+    width: var(--wds-typography-scale-05);
   }
 
   &.avatar-group-spacing-100 {
-    --avatar-group-gap: var(--sds-size-space-100);
+    --avatar-group-gap: var(--wds-size-space-100);
   }
   &.avatar-group-spacing-200 {
-    --avatar-group-gap: var(--sds-size-space-200);
+    --avatar-group-gap: var(--wds-size-space-200);
   }
   &.avatar-group-spacing-300 {
-    --avatar-group-gap: var(--sds-size-space-300);
+    --avatar-group-gap: var(--wds-size-space-300);
   }
   &.avatar-group-spacing-negative-100,
   &.avatar-group-spacing-negative-200,
   &.avatar-group-spacing-negative-300 {
     > .avatar {
-      box-shadow: var(--sds-effects-shadows-drop-shadow-200);
+      box-shadow: var(--wds-effects-shadows-drop-shadow-200);
     }
   }
   &.avatar-group-spacing-negative-100 {
-    --avatar-group-gap: var(--sds-size-space-negative-100);
+    --avatar-group-gap: var(--wds-size-space-negative-100);
   }
   &.avatar-group-spacing-negative-200 {
-    --avatar-group-gap: var(--sds-size-space-negative-200);
+    --avatar-group-gap: var(--wds-size-space-negative-200);
   }
   &.avatar-group-spacing-negative-300 {
-    --avatar-group-gap: var(--sds-size-space-negative-300);
+    --avatar-group-gap: var(--wds-size-space-negative-300);
   }
 }

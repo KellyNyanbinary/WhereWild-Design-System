@@ -3,7 +3,7 @@ import { SelectField, SelectItem } from "primitives";
 
 const meta: Meta<typeof SelectField> = {
   component: SelectField,
-  title: "SDS Primitives/Inputs",
+  title: "WDS Primitives/Inputs",
   parameters: { layout: "centered" },
 };
 export default meta;

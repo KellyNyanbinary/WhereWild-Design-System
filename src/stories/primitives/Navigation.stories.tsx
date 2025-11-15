@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const meta: Meta<typeof Navigation> = {
   component: Navigation,
-  title: "SDS Primitives/Navigation",
+  title: "WDS Primitives/Navigation",
   parameters: { layout: "centered" },
 };
 export default meta;

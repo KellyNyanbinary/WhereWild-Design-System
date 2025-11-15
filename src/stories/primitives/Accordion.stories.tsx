@@ -4,7 +4,7 @@ import "react";
 
 const meta: Meta<typeof Accordion> = {
   component: Accordion,
-  title: "SDS Primitives/Accordion",
+  title: "WDS Primitives/Accordion",
   parameters: { layout: "centered" },
 };
 export default meta;
