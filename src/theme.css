@@ -344,7 +344,7 @@
     --wds-color-background-brand-tertiary-pressed: var(--wds-new-color-tertiary-900);
     --wds-color-background-danger-default: var(--wds-color-red-400);
     --wds-color-background-danger-hover: var(--wds-color-red-300);
-    --wds-color-background-danger-pressed: var(--wds-color-red-200);
+    --wds-color-background-danger-pressed: var(--wds-color-red-500);
     --wds-color-background-danger-secondary: var(--wds-color-red-800);
     --wds-color-background-danger-secondary-hover: var(--wds-color-red-700);
     --wds-color-background-danger-secondary-pressed: var(--wds-color-red-900);
