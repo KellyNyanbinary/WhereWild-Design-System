@@ -24,6 +24,9 @@ const COLLECTION_DATA = {
   color_primitives: {
     settings: { prefix: "color" },
   },
+  new_color_primitives: {
+    settings: { prefix: "new-color" },
+  },
   color: {
     settings: {
       prefix: "color",
@@ -37,6 +40,8 @@ const COLLECTION_DATA = {
       // Strings to find and replace in CSS values
       replacements: {
         color_primitives: "color",
+        "@new_color_primitives": "wds-new-color",
+        "@new_color": "wds-new-color",
       },
     },
   },
