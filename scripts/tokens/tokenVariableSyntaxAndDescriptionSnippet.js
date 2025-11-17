@@ -26,7 +26,7 @@ Promise.all([
   ["VariableID:2142:11243", "var(--wds-color-background-utilities-blanket)", "Bg/Utilities/Blanket"],
   ["VariableID:280:16549", "var(--wds-color-icon-utilities-icon-on-measurement)", ""],
   ["VariableID:3104:11758", "var(--wds-color-background-default-pressed)", ""],
-  ["VariableID:3104:11762", "var(--wds-color-background-default-secondary-presed)", ""],
+  ["VariableID:3104:11762", "var(--wds-color-background-default-secondary-pressed)", ""],
   ["VariableID:3104:11766", "var(--wds-color-background-default-tertiary-pressed)", ""],
   ["VariableID:3104:11770", "var(--wds-color-background-neutral-tertiary-pressed)", ""],
   ["VariableID:3104:11771", "var(--wds-color-background-neutral-pressed)", ""],
