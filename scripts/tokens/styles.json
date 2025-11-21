@@ -1408,6 +1408,43 @@
   },
   {
     "type": "TEXT",
+    "name": "Body Small Emphasis",
+    "fontSize": 14,
+    "textDecoration": "NONE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Italic"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 139.9999976158142
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10216"
+      },
+      "fontStyle": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:14846"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Small",
+      "fontStyle": "Body/Font Style Italic"
+    }
+  },
+  {
+    "type": "TEXT",
     "name": "Body Code",
     "fontSize": 16,
     "textDecoration": "NONE",
