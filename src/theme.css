@@ -248,7 +248,7 @@
   --wds-color-background-warning-pressed: var(--wds-color-yellow-800);
   --wds-color-background-warning-secondary: var(--wds-color-yellow-300);
   --wds-color-background-warning-secondary-hover: var(--wds-color-yellow-200);
-  --wds-color-background-warning-secondary-secondary: var(--wds-color-yellow-400);
+  --wds-color-background-warning-secondary-pressed: var(--wds-color-yellow-400);
   --wds-color-border-brand-default: var(--wds-new-color-primary-800);
   --wds-color-border-brand-secondary: var(--wds-new-color-secondary-400);
   --wds-color-border-brand-tertiary: var(--wds-new-color-tertiary-200);
@@ -382,7 +382,7 @@
     --wds-color-background-warning-pressed: var(--wds-color-yellow-600);
     --wds-color-background-warning-secondary: var(--wds-color-yellow-800);
     --wds-color-background-warning-secondary-hover: var(--wds-color-yellow-700);
-    --wds-color-background-warning-secondary-secondary: var(--wds-color-yellow-900);
+    --wds-color-background-warning-secondary-pressed: var(--wds-color-yellow-900);
     --wds-color-border-brand-default: var(--wds-new-color-primary-400);
     --wds-color-border-brand-secondary: var(--wds-new-color-secondary-300);
     --wds-color-border-brand-tertiary: var(--wds-new-color-tertiary-800);
