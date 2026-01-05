@@ -611,7 +611,7 @@
   --wds-responsive-device-width: 23.4375rem;
   --wds-responsive-margin-horizontal: var(--@size-space-800);
   --wds-responsive-max-device-width: 37.5rem;
-  --wds-responsive-root-font-size: var(--@typography_primitives-scale-02);
+  --wds-responsive-root-font-size: var(--@typography_primitives-scale-03);
   --wds-responsive-scale: 0.0625rem;
   --wds-responsive-text-width: 50rem;
 }
