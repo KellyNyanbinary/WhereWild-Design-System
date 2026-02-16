@@ -1450,6 +1450,90 @@
   },
   {
     "type": "TEXT",
+    "name": "Body Tiny",
+    "fontSize": 12,
+    "textDecoration": "NONE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Regular"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 139.9999976158142
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3874:2968"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10179"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10181"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Tiny",
+      "fontFamily": "Body/Font Family",
+      "fontWeight": "Body/Font Weight Regular"
+    }
+  },
+  {
+    "type": "TEXT",
+    "name": "Body Tiny Strong",
+    "fontSize": 12,
+    "textDecoration": "NONE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Semi Bold"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 139.9999976158142
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3874:2968"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10179"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:14844"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Tiny",
+      "fontFamily": "Body/Font Family",
+      "fontWeight": "Body/Font Weight Strong"
+    }
+  },
+  {
+    "type": "TEXT",
     "name": "Body Code",
     "fontSize": 16,
     "textDecoration": "NONE",
@@ -1505,7 +1589,7 @@
     },
     "lineHeight": {
       "unit": "PERCENT",
-      "value": 100
+      "value": 120.00000476837158
     },
     "leadingTrim": "NONE",
     "paragraphIndent": 0,
@@ -1534,6 +1618,48 @@
   },
   {
     "type": "TEXT",
+    "name": "Single Line/Body Small",
+    "fontSize": 14,
+    "textDecoration": "NONE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Regular"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10216"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10179"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10181"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Small",
+      "fontFamily": "Body/Font Family",
+      "fontWeight": "Body/Font Weight Regular"
+    }
+  },
+  {
+    "type": "TEXT",
     "name": "Single Line/Body Small Strong",
     "fontSize": 14,
     "textDecoration": "NONE",
@@ -1547,7 +1673,7 @@
     },
     "lineHeight": {
       "unit": "PERCENT",
-      "value": 100
+      "value": 120.00000476837158
     },
     "leadingTrim": "NONE",
     "paragraphIndent": 0,
@@ -1570,6 +1696,90 @@
     },
     "variables": {
       "fontSize": "Body/Size Small",
+      "fontFamily": "Body/Font Family",
+      "fontWeight": "Body/Font Weight Strong"
+    }
+  },
+  {
+    "type": "TEXT",
+    "name": "Single Line/Body Tiny",
+    "fontSize": 12,
+    "textDecoration": "NONE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Regular"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3874:2968"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10179"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10181"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Tiny",
+      "fontFamily": "Body/Font Family",
+      "fontWeight": "Body/Font Weight Regular"
+    }
+  },
+  {
+    "type": "TEXT",
+    "name": "Single Line/Body Tiny Strong",
+    "fontSize": 12,
+    "textDecoration": "NONE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Semi Bold"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3874:2968"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10179"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:14844"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Tiny",
       "fontFamily": "Body/Font Family",
       "fontWeight": "Body/Font Weight Strong"
     }

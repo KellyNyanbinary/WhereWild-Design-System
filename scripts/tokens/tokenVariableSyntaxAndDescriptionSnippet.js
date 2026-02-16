@@ -178,6 +178,7 @@ Promise.all([
   ["VariableID:2103:22308", "var(--wds-typography-subheading-size-medium)", ""],
   ["VariableID:2103:22309", "var(--wds-typography-subheading-size-large)", ""],
   ["VariableID:2103:22310", "var(--wds-typography-subheading-font-weight)", ""],
+  ["VariableID:3874:2968", "var(--wds-typography-body-size-tiny)", ""],
   ["VariableID:58:8569", "var(--wds-typography-title-page-font-family)", ""],
   ["VariableID:58:8572", "var(--wds-typography-title-page-font-weight)", ""],
   ["VariableID:58:8574", "var(--wds-typography-title-page-size-small)", ""],
