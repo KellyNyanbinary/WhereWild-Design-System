@@ -87,6 +87,12 @@ const COLLECTION_DATA = {
       convertPixelToRem: true,
     },
   },
+  time: {
+    settings: {
+      prefix: "time",
+      convertPixelToRem: false,
+    },
+  },
 };
 
 initialize();
@@ -435,9 +441,15 @@ ${Object.keys(processed)
         .replace(/\}$/, "")})`;
     const valueIsDigits = value.toString().match(/^-?\d+(\.\d+)?$/);
     const isRatio = property.match(/(ratio-)/);
+    const isTimeDuration =
+      definitionsKey === `${KEY_PREFIX_COLLECTION}time` &&
+      property.includes("time-duration-");
     const isNumeric =
       valueIsDigits && !property.match(/(weight|ratio-)/) && !isRatio;
     if (isNumeric) {
+      if (isTimeDuration) {
+        return `${value}ms`;
+      }
       return convertPixelToRem ? `${parseInt(value) / 16}rem` : `${value}px`;
     } else if (isRatio) {
       return Math.round(value * 10000) / 10000;

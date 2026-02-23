@@ -632,11 +632,11 @@
 }
 /* time: mode_1 (default) */
 :root {
-  --wds-time-duration-deliberate: 31.25rem;
-  --wds-time-duration-instant: 0rem;
-  --wds-time-duration-long: 18.75rem;
-  --wds-time-duration-medium: 12.5rem;
-  --wds-time-duration-short: 6.25rem;
+  --wds-time-duration-deliberate: 500ms;
+  --wds-time-duration-instant: 0ms;
+  --wds-time-duration-long: 300ms;
+  --wds-time-duration-medium: 200ms;
+  --wds-time-duration-short: 100ms;
   --wds-time-easing-in: [0.42, 0, 1, 1];
   --wds-time-easing-in-and-out: [0.42, 0, 0.58, 1];
   --wds-time-easing-linear: [0, 0, 1, 1];
