@@ -1450,6 +1450,48 @@
   },
   {
     "type": "TEXT",
+    "name": "Body Small Link",
+    "fontSize": 14,
+    "textDecoration": "UNDERLINE",
+    "fontName": {
+      "family": "Inter",
+      "style": "Regular"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 139.9999976158142
+    },
+    "leadingTrim": "NONE",
+    "paragraphIndent": 0,
+    "paragraphSpacing": 0,
+    "listSpacing": 0,
+    "textCase": "ORIGINAL",
+    "boundVariables": {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10216"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10179"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:10181"
+      }
+    },
+    "variables": {
+      "fontSize": "Body/Size Small",
+      "fontFamily": "Body/Font Family",
+      "fontWeight": "Body/Font Weight Regular"
+    }
+  },
+  {
+    "type": "TEXT",
     "name": "Body Tiny",
     "fontSize": 12,
     "textDecoration": "NONE",
