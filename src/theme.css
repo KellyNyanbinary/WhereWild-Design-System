@@ -640,7 +640,7 @@
   --wds-time-easing-in: [0.42, 0, 1, 1];
   --wds-time-easing-in-and-out: [0.42, 0, 0.58, 1];
   --wds-time-easing-linear: [0, 0, 1, 1];
-  --wds-time-easing-out: (0, 0, 0.58, 1);
+  --wds-time-easing-out: [0, 0, 0.58, 1];
   --wds-time-easing-standard: [0.25, 0.1, 0.25, 1];
 }
 /* styles */
