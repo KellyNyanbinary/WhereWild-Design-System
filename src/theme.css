@@ -479,10 +479,10 @@
   --wds-size-bar-height-short: 4rem;
   --wds-size-bar-height-tall: 5rem;
   --wds-size-blur-100: 0.25rem;
-  --wds-size-control-dimension-large: 2rem;
-  --wds-size-control-dimension-medium: 1.5rem;
-  --wds-size-control-dimension-small: 1rem;
-  --wds-size-control-dimension-very-large: 2.5rem;
+  --wds-size-control-dimension-large: 2.5rem;
+  --wds-size-control-dimension-medium: 2rem;
+  --wds-size-control-dimension-small: 1.5rem;
+  --wds-size-control-dimension-tiny: 1rem;
   --wds-size-control-height-medium: 2.5rem;
   --wds-size-control-height-short: 2rem;
   --wds-size-control-height-tall: 3rem;
